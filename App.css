@@ -1,0 +1,191 @@
+.title {
+  max-width: 100%;
+  display: flex;
+  background-color: #00154e;
+}
+.title .title_left {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.title .title_left img {
+  width: 10%;
+}
+.title .title_left .hoi_chem {
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 35%;
+}
+
+.title .title_left .chuong_trinh {
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  text-shadow: 0 4px 4px #f15841;
+  line-height: 0%;
+}
+.title .title_left .react {
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 600;
+  color: #c1dbeb;
+  letter-spacing: 6px;
+}
+.title .title_left .date {
+  margin-left: -21%;
+  padding-left: 21%;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 72px;
+  color: #c1dbeb;
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0.2) 50%,
+    hsla(0, 0%, 76.9%, 0) 84.58%
+  );
+}
+.title .title_right {
+  width: 100%;
+}
+.title .title_right .title_right_img {
+}
+.title .title_right .title_right_img img {
+  width: 100%;
+}
+.container .tham_gia {
+  position: relative;
+}
+.container .tham_gia .dash {
+  position: absolute;
+  top: 112px;
+  left: 0;
+  width: 88px;
+  height: 22px;
+  background-color: #f15841;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container .tham_gia .title_tham_gia {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 20px;
+  padding: 0 108px;
+  line-height: 245px;
+  color: #00154e;
+}
+.container .tham_gia .nguoi_tham_gia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 80px;
+  text-align: center;
+}
+.container .tham_gia .nguoi_tham_gia .person {
+  width: auto;
+  margin-bottom: 50px;
+}
+.container .tham_gia .nguoi_tham_gia .avatar {
+  width: 250px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+.container .tham_gia .nguoi_tham_gia .avatar img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.container .tham_gia .nguoi_tham_gia .person .person_content {
+  margin-top: 40px;
+}
+.container .tham_gia .nguoi_tham_gia .person .person_content .person_name {
+  font-size: 20px;
+  line-height: 0px;
+  color: #00154e;
+  text-transform: uppercase;
+}
+.container .tham_gia .nguoi_tham_gia .person .person_content .person_position {
+  font-size: 18px;
+  line-height: 18px;
+  color: #4f4f4f;
+  margin: 0;
+  font-style: italic;
+}
+.container .chuong_trinh .dash {
+  position: relative;
+  top: 62px;
+  left: 0;
+  width: 88px;
+  height: 22px;
+  background-color: #f15841;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container .chuong_trinh .title_chuong_trinh {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 20px;
+  padding: 0 108px;
+  line-height: 45px;
+  color: #00154e;
+}
+.container .chuong_trinh .table {
+  margin: 100px auto 0;
+  border: 0.5px solid #f15841;
+  border-radius: 30px;
+  width: 70%;
+}
+.container .chuong_trinh .table .table_title {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  background: #f15841;
+  border-radius: 100px;
+  height: 56px;
+  text-align: center;
+  top: -28px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 50px;
+}
+.container .chuong_trinh .table .table_title h3 {
+  text-transform: uppercase;
+}
+.container .chuong_trinh .table .table_title p {
+  font-style: italic;
+}
+.container .chuong_trinh .table .row {
+  display: flex;
+  margin-top: 0%;
+}
+.container .chuong_trinh .table #col_1 {
+  margin-top: -30px;
+}
+.container .chuong_trinh .table .col {
+  padding: 25px 32px;
+  border-bottom: 0.5px dashed #f15841;
+}
+
+.container .chuong_trinh .table .time {
+  width: 25%;
+  border-right: 0.5px dashed #f15841;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container .chuong_trinh .table .activity {
+  width: 75%;
+}
+.container .chuong_trinh .table .activity ul li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 40px;
+}
